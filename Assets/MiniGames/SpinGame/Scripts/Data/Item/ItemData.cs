@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Data
 {
     [Serializable]
-    public class ItemData : ScriptableObject
+    public abstract class ItemData : ScriptableObject
     {
         [SerializeField] protected Sprite sprite;
         [SerializeField] protected int id;
@@ -23,7 +23,8 @@ namespace Data
             SupportEquipment,
             Weapon,
             Clothe,
-            Point
+            Point,
+            Death
         }
     }
 }

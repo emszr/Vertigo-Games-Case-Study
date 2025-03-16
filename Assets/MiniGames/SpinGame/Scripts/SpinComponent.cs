@@ -11,9 +11,9 @@ public class SpinComponent : MonoBehaviour
     
     private const string TweenId = "WheelSpin";
     
-    public async UniTask PlayTween(WheelSpinSettingsData wheelSpinSettingsData, int targetSlotIndex = 2, int slotCount = 8, Action beginCallback = null, Action endCallback = null)
+    public async UniTask PlayTween(WheelSpinSettingsData wheelSpinSettingsData, int targetSlotIndex, int slotCount = 8, Action beginCallback = null, Action endCallback = null)
     {
-        Debug.Log("Spin Started");
+        Debug.Log("Spin Started: " + targetSlotIndex);
 
         beginCallback?.Invoke();
         

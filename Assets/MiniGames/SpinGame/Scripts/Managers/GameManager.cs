@@ -1,4 +1,3 @@
-using System;
 using Data;
 using Global.Utilities;
 using SpinGame.Gameplay.Object;
@@ -42,10 +41,10 @@ namespace SpinGame.Gameplay.Manager
         {
             switch (state)
             {
-                case GameState.Idle:
+                case GameState.Initialized:
                     wheel.Initialize(CurrentWheelData);
                     break;
-                case GameState.SpinEnded:
+                case GameState.PostSpinActionEnded:
                     CurrentWheelIndex++;
                     wheel.Set(CurrentWheelData);
                     break;

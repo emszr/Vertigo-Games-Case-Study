@@ -3,9 +3,11 @@ namespace SpinGame.Utilities
     public enum GameState
     {
         Initializing,
-        Idle,
+        Initialized,
         SpinStarted,
         Spinning,
-        SpinEnded
+        SpinEnded,
+        PostSpinActionStarted,
+        PostSpinActionEnded
     }
 }

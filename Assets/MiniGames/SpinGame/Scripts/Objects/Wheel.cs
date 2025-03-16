@@ -78,7 +78,11 @@ namespace SpinGame.Gameplay.Object
             var index = Random.Range(0, SlotCount);
             spinComponent?.PlayTween(_wheelData.WheelSpinSettingsData, index, Constants.SlotCount,
                 () => { Signals.GameStateChanged?.Invoke(GameState.Spinning); },
-                () => { Signals.GameStateChanged?.Invoke(GameState.SpinEnded); });
+                () =>
+                {
+                    Signals.ItemAddedToInventory?.Invoke(_wheelData.Slots[index]);
+                    Signals.GameStateChanged?.Invoke(GameState.SpinEnded);
+                });
         }
 
         private void OnGameStateChanged(GameState state)

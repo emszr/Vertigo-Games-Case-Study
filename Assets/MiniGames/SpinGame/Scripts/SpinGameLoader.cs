@@ -24,7 +24,7 @@ namespace SpinGame.Gameplay.Loader
             Debug.Log("SpinGame Loader Initializing");
             Signals.GameStateChanged?.Invoke(GameState.Initializing);
             await InitializeManagers();
-            Signals.GameStateChanged?.Invoke(GameState.Idle);
+            Signals.GameStateChanged?.Invoke(GameState.Initialized);
             Debug.Log("SpinGame Loader Initialized");
         }
 
