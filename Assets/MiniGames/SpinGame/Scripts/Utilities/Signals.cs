@@ -1,5 +1,5 @@
 using System;
-using Data;
+using SpinGame.Data;
 
 namespace SpinGame.Utilities
 {

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Data
+namespace SpinGame.Data
 {
     [Serializable, CreateAssetMenu(fileName = "SlotData", menuName = "Data/SlotData")]
     public class SlotData : ScriptableObject

@@ -1,5 +1,5 @@
-using Data;
 using Global.Utilities;
+using SpinGame.Data;
 using SpinGame.Gameplay.Object;
 using SpinGame.Utilities;
 using UnityEngine;
@@ -9,6 +9,9 @@ namespace SpinGame.Gameplay.Manager
     public class GameManager : Singleton<GameManager>, IManager, ISubscribable
     {
         [SerializeField] private Wheel wheel;
+        [SerializeField] private WheelNumbersHandler wheelNumbersHandler;
+        [SerializeField] private CardHandler cardHandler;
+        [SerializeField] private DisplayZoneHandler displayZoneHandler;
 
         public bool IsInitialized { get; set; }
 
@@ -44,7 +47,7 @@ namespace SpinGame.Gameplay.Manager
                 case GameState.Initialized:
                     wheel.Initialize(CurrentWheelData);
                     break;
-                case GameState.PostSpinActionEnded:
+                case GameState.PostSpinActionEndStarted:
                     CurrentWheelIndex++;
                     wheel.Set(CurrentWheelData);
                     break;

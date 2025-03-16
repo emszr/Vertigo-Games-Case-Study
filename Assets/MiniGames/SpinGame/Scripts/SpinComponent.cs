@@ -2,6 +2,8 @@ using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
 using System;
+using SpinGame.Data;
+using SpinGame.Utilities;
 
 public class SpinComponent : MonoBehaviour
 {
@@ -34,6 +36,6 @@ public class SpinComponent : MonoBehaviour
 
     public void Reset()
     {
-        wheel.localRotation = Quaternion.identity;
+        wheel.DOLocalRotate(Vector3.zero, Constants.WheelResetDuration);
     }
 }

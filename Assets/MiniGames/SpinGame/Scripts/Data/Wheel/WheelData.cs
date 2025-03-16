@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Data
+namespace SpinGame.Data
 {
     [Serializable, CreateAssetMenu(fileName = "WheelData", menuName = "Data/WheelData")]
     public class WheelData : ScriptableObject

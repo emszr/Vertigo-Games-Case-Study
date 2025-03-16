@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Data
+namespace SpinGame.Data
 {
     [Serializable]
     public abstract class ItemData : ScriptableObject

@@ -1,12 +1,15 @@
 using System;
 using UnityEngine;
 
-[Serializable, CreateAssetMenu(fileName = "WheelSpinSettingsData", menuName = "Data/WheelSpinSettingsData")]
-public class WheelSpinSettingsData : ScriptableObject
+namespace SpinGame.Data
 {
-    [SerializeField] private float warmupCycleDuration;
-    [SerializeField] private int warmupCycleCount;
+    [Serializable, CreateAssetMenu(fileName = "WheelSpinSettingsData", menuName = "Data/WheelSpinSettingsData")]
+    public class WheelSpinSettingsData : ScriptableObject
+    {
+        [SerializeField] private float warmupCycleDuration;
+        [SerializeField] private int warmupCycleCount;
 
-    public float WarmupCycleDuration => warmupCycleDuration;
-    public int WarmupCycleCount => warmupCycleCount;
+        public float WarmupCycleDuration => warmupCycleDuration;
+        public int WarmupCycleCount => warmupCycleCount;
+    }
 }

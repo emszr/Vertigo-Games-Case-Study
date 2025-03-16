@@ -17,7 +17,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/MiniGames/SpinGame/Scripts/Data/Item/ClotheData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MiniGames/SpinGame/Scripts/Data/Item/DeathData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MiniGames/SpinGame/Scripts/Data/Item/SupportEquipmentData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MiniGames/SpinGame/Scripts/Managers/InventoryManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MiniGames/SpinGame/Scripts/Utilities/GameState.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -99,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742090098582</updated>
       <workItem from="1742090100171" duration="1085000" />
-      <workItem from="1742119003409" duration="10610000" />
+      <workItem from="1742119003409" duration="27004000" />
     </task>
     <servers />
   </component>

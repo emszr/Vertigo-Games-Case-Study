@@ -1,6 +1,6 @@
 using System.Collections.Generic;
-using Data;
 using Global.Utilities;
+using SpinGame.Data;
 using SpinGame.Utilities;
 using UnityEngine;
 

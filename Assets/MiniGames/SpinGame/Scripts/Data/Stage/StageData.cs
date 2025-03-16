@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Data
+namespace SpinGame.Data
 {
     [Serializable, CreateAssetMenu(fileName = "StageData", menuName = "Data/StageData")]
     public class StageData : ScriptableObject

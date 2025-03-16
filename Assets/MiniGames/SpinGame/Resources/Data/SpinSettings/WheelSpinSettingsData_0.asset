@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c6a400b94ce723409536461ae18146c, type: 3}
   m_Name: WheelSpinSettingsData_0
   m_EditorClassIdentifier: 
-  warmupCycleDuration: 1
-  warmupCycleCount: 3
+  warmupCycleDuration: 0.5
+  warmupCycleCount: 2

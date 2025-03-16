@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Data;
+using SpinGame.Data;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Data
+namespace SpinGame.Data
 {
     [CreateAssetMenu(fileName = "ChestData", menuName = "Data/ItemData/ChestData")]
     public class ChestData : ItemData

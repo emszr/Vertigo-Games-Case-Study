@@ -8,6 +8,7 @@ namespace SpinGame.Utilities
         Spinning,
         SpinEnded,
         PostSpinActionStarted,
-        PostSpinActionEnded
+        PostSpinActionEnded,
+        PostSpinActionEndStarted
     }
 }

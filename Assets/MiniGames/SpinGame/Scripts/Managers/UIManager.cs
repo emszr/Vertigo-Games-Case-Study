@@ -8,6 +8,9 @@ namespace SpinGame.Gameplay.Manager
     public class UIManager : Singleton<UIManager>, IManager, ISubscribable
     {
         [SerializeField] Button spinButton;
+        [SerializeField] Button exitButton;
+        
+        public bool IsInitialized { get; private set; }
         
         public void Initialize()
         {
@@ -20,20 +23,26 @@ namespace SpinGame.Gameplay.Manager
         {
             spinButton.onClick.RemoveAllListeners();
             spinButton.onClick.AddListener(OnSpinButtonClick);
+            
+            exitButton.onClick.RemoveAllListeners();
+            exitButton.onClick.AddListener(OnExitButtonClick);
         }
 
         private void SetButtonsInteractable(bool isInteractable)
         {
             spinButton.interactable = isInteractable;
+            exitButton.interactable = isInteractable;
         }
         
         private void OnSpinButtonClick()
         {
             Signals.GameStateChanged?.Invoke(GameState.SpinStarted);
         }
-
-        public bool IsInitialized { get; set; }
-
+        
+        private void OnExitButtonClick()
+        {
+        }
+        
         public void Subscribe()
         {
             Signals.GameStateChanged += OnGameStateChanged;
@@ -50,7 +59,7 @@ namespace SpinGame.Gameplay.Manager
             {
                 SetButtonsInteractable(false);
             }
-            else
+            else if(state == GameState.PostSpinActionEnded)
             {
                 SetButtonsInteractable(true);
             }
