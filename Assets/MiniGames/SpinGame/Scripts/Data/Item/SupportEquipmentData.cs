@@ -1,9 +1,8 @@
-using System;
 using UnityEngine;
 
 namespace SpinGame.Data
 {
-    [Serializable, CreateAssetMenu(fileName = "SupportEquipmentData", menuName = "Data/ItemData/SupportEquipmentData")]
+    [CreateAssetMenu(fileName = "SupportEquipmentData", menuName = "Data/ItemData/SupportEquipmentData")]
     public class SupportEquipment : ItemData
     {
         [SerializeField] private SupportEquipment.SubType subType;

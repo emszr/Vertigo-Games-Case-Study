@@ -1,9 +1,8 @@
-using System;
 using UnityEngine;
 
 namespace SpinGame.Data
 {
-    [Serializable, CreateAssetMenu(fileName = "ClotheData", menuName = "Data/ItemData/ClotheData")]
+    [CreateAssetMenu(fileName = "ClotheData", menuName = "Data/ItemData/ClotheData")]
     public class ClotheData : ItemData
     {
         [SerializeField] private ClotheData.SubType subType;
@@ -15,8 +14,7 @@ namespace SpinGame.Data
         public enum SubType
         {
             None,
-            Head,
-            Body
+            Head
         }
     }
 }

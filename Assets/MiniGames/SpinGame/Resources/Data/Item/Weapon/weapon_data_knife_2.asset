@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e30364c697e6648a479cfc351c710d, type: 3}
+  m_Name: weapon_data_knife_2
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 4658459910315597717, guid: ef64fde3fe388cb4d8840e8e87eb6020, type: 3}
+  id: 2
+  displayName: Renders Tier 2
+  subType: 1
