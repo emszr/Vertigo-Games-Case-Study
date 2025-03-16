@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31f06a33e365caa4c8b2b0e05da0e9e7, type: 3}
+  m_Name: knife_points_data_0
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1742066445721694904, guid: e4b38a0904348aa4889638ffc617e45f, type: 3}
+  id: 0
+  subType: 7

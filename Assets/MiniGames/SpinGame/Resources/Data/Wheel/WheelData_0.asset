@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b7dcac3b058d94396a1dc48319787b, type: 3}
+  m_Name: WheelData_0
+  m_EditorClassIdentifier: 
+  slots:
+  - {fileID: 11400000, guid: 2235f7a1c9fa82840b53b56d8235c033, type: 2}
+  - {fileID: 11400000, guid: 8f4dd5012cd853f4a8bedfe9ae5eb026, type: 2}
+  - {fileID: 11400000, guid: d4a6f859cc3ddd14187c64ecac8b9cc5, type: 2}
+  - {fileID: 11400000, guid: 8f4dd5012cd853f4a8bedfe9ae5eb026, type: 2}
+  - {fileID: 11400000, guid: c66067be80f2fe84e9790f82ed2bf409, type: 2}
+  - {fileID: 11400000, guid: 818e5515db671ff429ba7fa4160370e5, type: 2}
+  - {fileID: 11400000, guid: b50ec69f9fbbd0f47ac6d5e762191b34, type: 2}
+  - {fileID: 11400000, guid: 1c89a41de9f8e5c44884b8c6966ca6ea, type: 2}
+  wheelSpinSettingsData: {fileID: 11400000, guid: 0c197d79b4633b748bc25005354fdd07, type: 2}
+  type: 0
+  pinSprite: {fileID: 5759410588988491854, guid: 1e1782264cfdc224d8ec249e197e11ec, type: 3}
+  wheelSprite: {fileID: 21300000, guid: 18ebba4cbc9fced4cbdee3a9049cd87d, type: 3}
